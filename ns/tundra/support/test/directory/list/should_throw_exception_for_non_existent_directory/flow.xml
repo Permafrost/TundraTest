@@ -730,7 +730,7 @@
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
-          <value>java.io.FileNotFoundException: Unable to list directory as it does not exist: %$directory%</value>
+          <value>java.io.FileNotFoundException: Unable to list directory as it either does not exist or an IO error occurred: %$directory%</value>
         </array>
         <record name="field_content_type" javaclass="com.wm.util.Values">
           <value name="contentType">1</value>
@@ -861,7 +861,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">java.io.FileNotFoundException: Unable to list directory as it either does not exist or an IO error occurred: %$directory%</value>
+  <value name="xml">java.io.FileNotFoundException: Unable to list directory as it either does not exist, access is denied, or an IO error occurred: %$directory%</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
     <value name="node_comment"></value>
@@ -875,7 +875,7 @@
     <value name="field_type">string</value>
     <value name="field_dim">0</value>
     <array name="field_options" type="value" depth="1">
-      <value>java.io.FileNotFoundException: Unable to list directory as it does not exist: %$directory%</value>
+      <value>java.io.FileNotFoundException: Unable to list directory as it either does not exist or an IO error occurred: %$directory%</value>
     </array>
     <record name="field_content_type" javaclass="com.wm.util.Values">
       <value name="contentType">1</value>
